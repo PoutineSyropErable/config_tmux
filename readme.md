@@ -13,4 +13,7 @@ git clone https://github.com/PoutineSyropErable/config_tmux ~/.config/tmux
 # Create a symbolic link only if the cloned .tmux.conf exists
 ln -s ~/.config/tmux/.tmux.conf ~/.tmux.conf
 
+git clone --depth=1 https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+
 ```
